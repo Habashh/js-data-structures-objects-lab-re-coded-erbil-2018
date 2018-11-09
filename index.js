@@ -14,7 +14,10 @@ const driver={
   driver.address='12 Broadway';
    return driver
  }
+ function deleteFromDriverByKey(driver, key){
+   
+ }
  function destructivelyDeleteFromDriverByKey(driver, key){
-   let newdriver= delete driver[`name`];
-   return driver, newdriver
+   let newdriver=`name`;
+   return delete driver.newdriver
  }
